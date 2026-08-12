@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Temperature Converter | OIBSIP</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container navbar">
+            <a href="#" class="logo">TempConvert</a>
+
+            <nav>
+                <a href="#converter">Converter</a>
+                <a href="#about">About</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container hero-content">
+
+                <p class="tag">OIBSIP • LEVEL 1 • TASK 3</p>
+
+                <h1>Temperature<br><span>Converter</span></h1>
+
+                <p>
+                    Quickly convert temperatures between Celsius,
+                    Fahrenheit, and Kelvin.
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- Converter -->
+        <section class="converter-section" id="converter">
+
+            <div class="container">
+
+                <div class="converter-card">
+
+                    <div class="card-heading">
+                        <p class="section-label">CONVERTER</p>
+                        <h2>Convert Temperature</h2>
+                        <p>Enter a value and select its unit.</p>
+                    </div>
+
+
+                    <form id="temperatureForm">
+
+                        <div class="form-group">
+                            <label for="temperature">Temperature</label>
+
+                            <input
+                                type="number"
+                                id="temperature"
+                                placeholder="Enter temperature"
+                                step="any"
+                            >
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="unit">Input Unit</label>
+
+                            <select id="unit">
+                                <option value="celsius">Celsius (°C)</option>
+                                <option value="fahrenheit">Fahrenheit (°F)</option>
+                                <option value="kelvin">Kelvin (K)</option>
+                            </select>
+                        </div>
+
+
+                        <button type="submit" class="convert-btn">
+                            Convert Temperature
+                        </button>
+
+                    </form>
+
+
+                    <div id="message" class="message"></div>
+
+
+                    <!-- Results -->
+                    <div id="results" class="results hidden">
+
+                        <h3>Conversion Results</h3>
+
+                        <div class="result-grid">
+
+                            <div class="result-box">
+                                <span>Celsius</span>
+                                <strong id="celsiusResult">--</strong>
+                            </div>
+
+                            <div class="result-box">
+                                <span>Fahrenheit</span>
+                                <strong id="fahrenheitResult">--</strong>
+                            </div>
+
+                            <div class="result-box">
+                                <span>Kelvin</span>
+                                <strong id="kelvinResult">--</strong>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Information -->
+        <section class="about" id="about">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">HOW IT WORKS</p>
+                    <h2>Simple Temperature Conversion</h2>
+                </div>
+
+
+                <div class="info-grid">
+
+                    <div class="info-card">
+                        <span class="number">01</span>
+                        <h3>Enter Value</h3>
+                        <p>
+                            Enter the temperature value you want to convert.
+                        </p>
+                    </div>
+
+                    <div class="info-card">
+                        <span class="number">02</span>
+                        <h3>Select Unit</h3>
+                        <p>
+                            Choose whether your input is Celsius,
+                            Fahrenheit, or Kelvin.
+                        </p>
+                    </div>
+
+                    <div class="info-card">
+                        <span class="number">03</span>
+                        <h3>Get Results</h3>
+                        <p>
+                            Instantly view the equivalent temperatures
+                            in all three units.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div class="container footer-content">
+            <div>
+                <a href="#" class="footer-logo">TempConvert</a>
+                <p>OIBSIP Web Development & Designing</p>
+            </div>
+
+            <p>© 2026 All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
