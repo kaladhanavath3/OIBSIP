@@ -1,54 +1,43 @@
 # Personal Portfolio
 
-## OIBSIP Internship
+This project is a responsive personal portfolio website created as part of the **OASIS INFOBYTE Internship Program** under the **Web Development & Designing Track**.
 
-This project was developed as part of the **OASIS INFOBYTE Internship Program** under the **Web Development & Designing** track.
+## About Me
 
-### Task
+I am an aspiring Web Developer & Designer passionate about creating clean, responsive, and user-friendly websites.
 
-**Level 1 - Task 2: Personal Portfolio**
+## Sections Included
 
-## Project Description
-
-This project is a responsive personal portfolio website designed to showcase my profile, technical skills, projects, and contact information.
-
-The portfolio is designed as a digital résumé with a clean layout, consistent branding, and responsive design for desktop and mobile devices.
-
-## Sections
-
-- Home / Profile
-- About Me
+- Home
+- About
 - Skills
 - Projects
+- Education
+- Certifications
 - Contact
-- Footer
 
-## Features
+## Education
 
-- Personal hero/profile section
-- Name and professional role
-- Profile avatar placeholder
-- About Me section
-- Technical skills grid
-- Two project cards
-- GitHub project link placeholders
-- Contact information
-- LinkedIn link placeholder
-- Smooth scrolling navigation
-- Responsive design
-- Mobile-friendly layout
-- Consistent colour scheme
-- Consistent typography
-- Hover effects
+- **B.Tech** – TKR College of Engineering & Technology
+- **Intermediate** – T.T.W.U.R.J.C Girls, Miryalguda
+- **SSC** – T.T.W.U.R.J.C Girls, Miryalguda
 
 ## Technologies Used
 
 - HTML5
 - CSS3
-- Google Fonts
-- CSS Flexbox
-- CSS Grid
-- Responsive Media Queries
+
+## Features
+
+- Responsive design
+- Navigation menu
+- About section
+- Skills section
+- Projects section
+- Education details
+- Certifications section
+- Contact section
+- Mobile-friendly layout
 
 ## Project Structure
 
@@ -57,4 +46,8 @@ WebDev-L1-PersonalPortfolio/
 │
 ├── index.html
 ├── style.css
-└── README.md
+├── README.md
+│
+└── screenshots/
+    ├── desktop.png
+    └── mobile.png
